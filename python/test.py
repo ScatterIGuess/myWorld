@@ -1,9 +1,12 @@
 import time 
 
-startTime = time.time()
+
+def run():
+    print("Hello World")
 
 
-print("Hello World")
 
-
-print(f"Time Taken: {time.time()-startTime}")
+if __name__ == "__main__":
+    startTime = time.time()
+    run()
+    print(f"Time Taken: {time.time()-startTime}")
