@@ -10,11 +10,18 @@ def run():
         except:
             break
     print(f"Sum: {sum(nums)}")
+    print(f"Mult: {mult(nums)}")
     
 def sum(a):
     result = 0
     for v in a:
         result += v
+    return result
+
+def mult(a):
+    result = 1
+    for v in a:
+        result *= v
     return result
 
 
